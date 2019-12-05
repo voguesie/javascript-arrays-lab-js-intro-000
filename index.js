@@ -15,3 +15,9 @@ function destructivelyPrependKitten(name) {
 var newPrependKittens = kittens.unshift(name);
 return newPrependKittens
 }
+
+kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
+function destructivelyRemoveLastKitten(name) {
+var newRemoveLastKittens = kittens.shift(name);
+return newRemoveLastKittens
+}
