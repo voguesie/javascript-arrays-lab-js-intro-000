@@ -9,4 +9,3 @@ function destructivelyAppendKitten(name) {
 }
 
 // Use .shift to add name to beginning of kittens in function destructivelyPrependKitten()
-
