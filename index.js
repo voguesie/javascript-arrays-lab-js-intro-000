@@ -12,6 +12,6 @@ function destructivelyAppendKitten(name) {
 
 kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
 function destructivelyPrependKitten(name) {
-var newPrependKittens = kittens.shift(name);
+var newPrependKittens = kittens.unshift(name);
 return newPrependKittens
 }
