@@ -26,6 +26,6 @@ return newRemoveLastKittens
 
 kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
 function destructivelyRemoveFirstKitten(name) {
-  newRemoveFirstKittens = kittens.shift(name);
+  var newRemoveFirstKittens = kittens.shift(name);
   return newRemoveFirstKittens
 }
