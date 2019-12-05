@@ -29,3 +29,11 @@ function destructivelyRemoveFirstKitten(name) {
   var newRemoveFirstKittens = kittens.shift(name);
   return newRemoveFirstKittens
 }
+
+// Use .shift to destructively remove kitten from front of list.
+
+kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
+function appendKitten(name) {
+  var newKittens = name.concat(kittens);
+  return newKittens
+}
