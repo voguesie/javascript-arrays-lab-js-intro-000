@@ -7,3 +7,6 @@ function destructivelyAppendKitten(name) {
   var newKittens = kittens.push(name);
   return newKittens
 }
+
+// Use .shift to add name to beginning of kittens in function destructivelyPrependKitten()
+
