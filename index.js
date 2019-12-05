@@ -18,6 +18,6 @@ return newPrependKittens
 
 kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
 function destructivelyRemoveLastKitten(name) {
-var newRemoveLastKittens = kittens.shift(name);
+var newRemoveLastKittens = kittens.pop(name);
 return newRemoveLastKittens
 }
