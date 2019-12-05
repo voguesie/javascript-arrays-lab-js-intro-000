@@ -30,7 +30,7 @@ function destructivelyRemoveFirstKitten(name) {
   return newRemoveFirstKittens
 }
 
-// Use .shift to destructively remove kitten from front of list.
+// Use .concat to add name to end of the list.
 
 kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
 function appendKitten(name) {
@@ -38,12 +38,23 @@ function appendKitten(name) {
   return newKittens
 }
 
+// Use .concat to add name to the end of the list kittens.
+
 function prependKitten(name) {
   var newKittens = [name].concat(kittens);
   return newKittens
 }
 
+// Use .slice to remove the final name from the list kittens.
+
 function removeLastKitten() {
   var newKittens = kittens.slice(0,kittens.length-1)
+  return newKittens
+}
+
+// Use .slice to remove the first kitten from the kittens array.
+
+function removeFirstKitten() {
+  var newKittens = kittens.slice(1);
   return newKittens
 }
