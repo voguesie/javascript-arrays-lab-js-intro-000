@@ -21,3 +21,13 @@ function destructivelyRemoveLastKitten(name) {
 var newRemoveLastKittens = kittens.pop(name);
 return newRemoveLastKittens
 }
+
+// Use .shift to destructively remove kitten from front of list.
+
+kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
+function destructivelyRemoveFirstKitten(name) {
+  newRemoveFirstKittens = kittens.shift(name);
+  return newRemoveFirstKittens
+}
+
+ 
