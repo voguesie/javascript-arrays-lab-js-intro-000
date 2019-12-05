@@ -34,6 +34,6 @@ function destructivelyRemoveFirstKitten(name) {
 
 kittens = ["Milo", "Otis", "Garfield"] // Redefine kittens
 function appendKitten(name) {
-  var newKittens = name.concat(kittens);
+  var newKittens = kittens.concat(name);
   return newKittens
 }
